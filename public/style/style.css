@@ -1,0 +1,38 @@
+
+.todo-container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#taskInput {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#addButton {
+    padding: 10px 15px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#taskList li {
+    background-color: #f2f4f8;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    text-align: left;
+}
